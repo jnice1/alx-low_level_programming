@@ -21,7 +21,7 @@ while (C <= 'Z')
 putchar(C);
 C++;
 }
-putchar('\n')
+putchar('\n');
 
 return (0);
 }
