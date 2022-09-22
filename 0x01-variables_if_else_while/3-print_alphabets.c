@@ -9,11 +9,19 @@
 */
 int main(void)
 {
-char letter;
- for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
- for (letter = 'A'; letter <= 'Z'; letter++)
-putchar(letter);
-putchar("\n");
+char c = 'a';
+char C = 'A';
+while (c <= 'z')
+{
+putchar(c);
+c++;
+}
+while (C <= 'Z')
+{
+putchar(C);
+C++;
+}
+putchar('\n')
+
 return (0);
 }
