@@ -8,9 +8,12 @@
 */
 int main(void)
 {
-char low;
-for (low = 'a'; low <= z; low++)
-put char(low);
-put char('\n');
+char c = 'a';
+while (c <= 'z')
+{
+putchar(c);
+c++
+}
+putchar('\n');
 return (0);
 }
