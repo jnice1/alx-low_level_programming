@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
 *main - Entry point
 *
@@ -15,5 +14,6 @@ if (c != 'q' && c != 'e')
 putchar(c);
 c++;
 }
+putchar('\n');
 return (0);
 }
